@@ -1,0 +1,120 @@
+body {
+  display: flexbox;
+  text-align: center;
+}
+
+/*Navbar*/
+.navbar {
+  padding: 0 2rem 0.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-left: 6%;
+}
+
+.navbar-brand h1 {
+  color: #FEF9EF;
+
+}
+
+
+.navbar-text {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: flex-end;
+  margin-right: 4%;
+}
+
+.nav-item {
+  padding: 0 12px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.colored-section1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse;
+  padding-bottom: 10px;
+}
+
+/*Intro*/
+.intro {
+  height: 300px;
+  color: #FEF9EF;
+}
+
+.col-lg-6 {
+  padding: 15% 0% 3%;
+  font-family: sans-serif;
+}
+
+.featurette {
+}
+
+.colored-section1 {
+  background-color: #98BAE7;
+}
+
+/*Experience*/
+.myexperience {
+  padding-bottom: 2%;
+}
+
+.experience {
+  height: 300px;
+}
+
+.colored-section {
+  background-color: #396EB0;
+  height: 300px;
+  padding-top: 3%;
+  line-height: 1.5;
+}
+
+/*Contact*/
+.contact-me {
+  padding: 8% 0 0;
+  height: 100px;
+}
+
+.colored-section2 {
+  background-color: #98BAE7;
+  height: 80px;
+  padding: 0 0 5%;
+}
+
+colored-section3 {
+  background-color: #98BAE7;
+  height: 50px;
+}
+
+.btn {
+  padding-bottom: 80px;
+}
+
+.container-fluid {
+  padding: 0% 0% 0%;
+}
+
+.white-section {
+  background-color: #98BAE7;
+  height: 60px;
+}
+
+.footer {
+  padding: 0 0 0;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+@media (max-device-width: 218px) and (max-device-height: 281px) {
+}
